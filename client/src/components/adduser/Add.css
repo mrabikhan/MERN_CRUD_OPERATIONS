@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.backbtn{
+   background-color: green;
+   color: white;
+   font-size: 15px;
+   padding: 10px;
+   border-radius: 5px;
+   text-decoration: none;
+}
+
+.addUser{
+    background-color: white;
+    width: fit-content;
+    line-height: 50px;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 40%;    
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 1px pink;
+}
+
+.inputGroup input{
+    padding: 8px;
+    width: 300px;
+}
+
+.addbtn{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+}
+

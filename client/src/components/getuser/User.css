@@ -1,0 +1,90 @@
+.userTable{
+    width: 60%;
+    background-color: white;
+    box-shadow: 1px 1px 6px 1px rgb(177, 175, 175);
+    border-radius: 5px;
+    padding: 50px;
+    margin: 70px auto;
+}
+
+.adduserbtn{
+    background-color:blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    border-radius: 5px;
+    transition: 0.5s;
+
+}
+
+.adduserbtn:hover{
+background-color: rgb(92, 92, 249);
+}
+
+.userTable table{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;    
+}
+
+.userTable table thead th{
+    background-color: rgb(29, 3, 160);
+    color: white;
+    padding: 10px;
+}
+
+.userTable table tbody td{
+    background-color: rgb(217, 221, 255);
+    color: black;
+    padding: 10px;
+}
+
+.userdelbtn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 12px;
+    margin: 2px;
+    transition: 0.5s;
+
+}
+
+.usereditbtn{
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 2px;
+    transition: 0.5s;
+}
+.usereditbtn:hover{
+    background-color: rgb(171, 96, 240);
+    cursor: pointer;
+    
+}
+.userdelbtn:hover{
+    background-color: rgb(209, 102, 102);
+    cursor: pointer;
+}
+.printbtn{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.printbtn:hover{
+    background-color: rgb(2, 184, 2);
+}
